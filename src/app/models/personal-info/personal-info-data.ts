@@ -14,7 +14,11 @@ export class PersonalInfoData {
                                     Ocasionally I write about daily stuff, poetry, short stories. Ultimately I appreciate cultural 
                                     things like going to museums, watching paintings, exploring urban installations. `;
         this.personalInfo.favoriteBooks = [
-            new Books
+            { name: "El País de Uno", author: "Denise Dresser"},
+            { name: "The Little Prince", author: "Antoine de Saint-Exupéry"},
+            { name: "Twenty Thousand Leagues Under the Sea", author: "Julio Verne"},
+            { name: "Journey to the Center of the Earth", author: "Julio Verne"} 
+            
         ]
         //Social media links
         this.personalInfo.socialMedia.facebookURL = "/luisejrobles";
