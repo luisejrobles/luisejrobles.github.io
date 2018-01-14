@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalInfoData } from '../../models/personal-info/personal-info-data';
 
 @Component({
   selector: 'app-aboutme-page',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutmePageComponent implements OnInit {
 
-  constructor() { }
+  me = new PersonalInfoData;
+  constructor() { 
+  }
 
   ngOnInit() {
   }

@@ -10,5 +10,4 @@ export interface PersonalInfo {
     socialMedia: SocialMedia;
     years: string;
     favoriteBooks: Books[];
-
 }
