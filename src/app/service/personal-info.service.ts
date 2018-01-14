@@ -4,7 +4,7 @@ import { PersonalInfoData } from '../models/personal-info/personal-info-data';
 
 @Injectable()
 export class PersonalInfoService {
-  luisejrobles: PersonalInfo = {
+  personalInfo: PersonalInfo = {
     name: "Luis Eduardo Jiménez Robles",
     img: "../../assets/personal-img",
     hobbies: `Reading tech articles (Machine Learning, AI, Aerospacial, Cience, Web Development), poetry, sci-fi, history about Mexico, go cycling (about 2 years ago), 
@@ -43,9 +43,8 @@ export class PersonalInfoService {
       {name: "El país de uno", author: "Denisse Dresser"}
     ]
   }
-  personalInfo = new PersonalInfoData(this.luisejrobles);
+
+  luisejrobles = new PersonalInfoData(this.personalInfo);
 
   constructor() { }
-
-
 }
