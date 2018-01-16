@@ -6,7 +6,7 @@ import { PersonalInfoData } from '../models/personal-info/personal-info-data';
 export class PersonalInfoService {
   personalInfo: PersonalInfo = {
     name: "Luis Eduardo Jiménez Robles",
-    img: "../../assets/personal-img.jpg",
+    img: "../../assets/personal-img.png",
     hobbies: `Reading tech articles (Machine Learning, AI, Aerospacial, Cience, Web Development), poetry, sci-fi, history about Mexico, go cycling (about 2 years ago), 
     //                                 go running (whenever I can), food stuff, politics, economy, community development, social improvement
     //                                 financial stuff. 
