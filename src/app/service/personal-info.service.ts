@@ -6,7 +6,7 @@ import { PersonalInfoData } from '../models/personal-info/personal-info-data';
 export class PersonalInfoService {
   personalInfo: PersonalInfo = {
     name: "Luis Eduardo Jiménez Robles",
-    img: "../../assets/personal-img",
+    img: "../../assets/personal-img.jpg",
     hobbies: `Reading tech articles (Machine Learning, AI, Aerospacial, Cience, Web Development), poetry, sci-fi, history about Mexico, go cycling (about 2 years ago), 
     //                                 go running (whenever I can), food stuff, politics, economy, community development, social improvement
     //                                 financial stuff. 
@@ -33,9 +33,9 @@ export class PersonalInfoService {
       }
     ],
     socialMedia: {
-      facebookURL: "facebook.com/luisejrobles",
-      githubURL: "github.com/luisejrobles",
-      linkedinLURL: "linkedin.com/me/luisejrobles"
+      facebookURL: "https://www.facebook.com/luisejrobles",
+      githubURL: "https://www.github.com/luisejrobles",
+      linkedinURL: "https://www.linkedin.com/me/luisejrobles"
     },
     years: "23",
     favoriteBooks : [

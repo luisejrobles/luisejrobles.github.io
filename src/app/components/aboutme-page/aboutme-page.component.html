@@ -1,11 +1,20 @@
 <div class="container">
   <div class="personal-photo">
-    sdjhfkh
-    <div class="photo-div"></div>
+    <div class="photo-div">
+      <img [src]="this.luisejrobles.personalInfo.img" width="50%" height="50%">
+    </div>
     <div class="name-div">
-      <h2 class="mat-display-2">{{ luisejrobles.name }}</h2>
-      <div class="social-div">
-        
+      <h2 class="mat-display-2">{{ this.luisejrobles.personalInfo.name }}</h2>
+      <div class="social-div"> 
+          <button mat-icon-button>
+            <a class="fa fa-facebook-official" target="_blank" [href]="this.luisejrobles.personalInfo.socialMedia.facebookURL"></a>
+          </button>
+          <button mat-icon-button>
+            <a class="fa fa-github" target="_blank" [href]="this.luisejrobles.personalInfo.socialMedia.githubURL"></a>
+          </button>
+          <button mat-icon-button>
+            <a class="fa fa-linkedin-square" target="_blank" [href]="this.luisejrobles.personalInfo.socialMedia.linkedinURL"></a>
+          </button>
       </div>
     </div>
   </div>

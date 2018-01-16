@@ -14,6 +14,7 @@ export class AboutmePageComponent implements OnInit {
 
   ngOnInit() {
     this.luisejrobles = this.personalInfoService.luisejrobles;
+    console.log(this.luisejrobles.personalInfo);
   }
 
 }
