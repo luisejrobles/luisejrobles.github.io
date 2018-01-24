@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
@@ -29,6 +30,7 @@ import { PersonalInfoService } from './service/personal-info.service';
     BrowserModule,
     Angular2FontawesomeModule,
     AppRoutingModule,
+    FlexLayoutModule,
     MatButtonModule,
     MatToolbarModule,
     MatButtonModule
