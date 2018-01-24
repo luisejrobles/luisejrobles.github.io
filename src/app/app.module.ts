@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatStepperModule} from '@angular/material/stepper';
 
 import { AboutmePageComponent } from './components/aboutme-page/aboutme-page.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
@@ -32,6 +34,8 @@ import { PersonalInfoService } from './service/personal-info.service';
     AppRoutingModule,
     FlexLayoutModule,
     MatButtonModule,
+    MatIconModule,
+    MatStepperModule,
     MatToolbarModule,
     MatButtonModule
   ],
