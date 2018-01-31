@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatStepperModule} from '@angular/material/stepper';
 
@@ -29,15 +30,15 @@ import { PersonalInfoService } from './service/personal-info.service';
     ContactsComponent
   ],
   imports: [
-    BrowserModule,
     Angular2FontawesomeModule,
     AppRoutingModule,
+    BrowserModule,
     FlexLayoutModule,
     MatButtonModule,
+    MatCardModule,
     MatIconModule,
     MatStepperModule,
     MatToolbarModule,
-    MatButtonModule
   ],
   providers: [ PersonalInfoService ],
   bootstrap: [AppComponent]
