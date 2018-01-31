@@ -7,6 +7,13 @@ export class PersonalInfoService {
   personalInfo: PersonalInfo = {
     name: "Luis Eduardo Jiménez Robles",
     img: "../../assets/personal-img.png",
+    shortBio: [
+      "23 years old",
+      "Computer Science Engineer",
+      "Front End Developer",
+      "GitHub Campus Expert",
+      "Global Shapers Tijuana Hub member"
+    ],
     hobbies: `Reading tech articles (Machine Learning, AI, Aerospacial, Cience, Web Development), poetry, sci-fi, history about Mexico, go cycling (about 2 years ago), 
     //                                 go running (whenever I can), food stuff, politics, economy, community development, social improvement
     //                                 financial stuff. 
@@ -27,8 +34,9 @@ export class PersonalInfoService {
         location: "Tijuana, BC",
         period: "2012-2017",
         achievements: [
-          "",
-
+          "Github Campus Expert at Universidad Autónoma de Baja California.",
+          "Creator of Cimadev, a fully student driven tech community.",
+          "Curator of Cimadev."
         ],
       }
     ],

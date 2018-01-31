@@ -5,6 +5,7 @@ import { Books } from "./books";
 export interface PersonalInfo {
     name: string;
     img: string;
+    shortBio: string[],
     hobbies: string;
     schools: Schools[];
     socialMedia: SocialMedia;
