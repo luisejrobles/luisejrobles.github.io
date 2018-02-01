@@ -17,6 +17,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { ProfesionalPageComponent } from './components/profesional-page/profesional-page.component';
 import { PersonalInfoService } from './service/personal-info.service';
+import { BioCardComponent } from './components/bio-card/bio-card.component';
 
 
 
@@ -27,7 +28,8 @@ import { PersonalInfoService } from './service/personal-info.service';
     ProfesionalPageComponent,
     AboutmePageComponent,
     PageNotFoundComponent,
-    ContactsComponent
+    ContactsComponent,
+    BioCardComponent
   ],
   imports: [
     Angular2FontawesomeModule,
