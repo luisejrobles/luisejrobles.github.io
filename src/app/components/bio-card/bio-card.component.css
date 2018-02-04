@@ -1,3 +1,25 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 60%;
+}
+h4 {
+    line-height: 50%;
+}
+img {
+    margin-bottom: 15px;
+}
 mat-card {
+    margin: 0 auto;
     width: 75%;
+}
+p {
+    color: #636e72;
+}
+.short-bio {
+    /* background-color: aqua; */
+    line-height: 80%;
+    margin: 0 auto;
+    width: 80%;
 }

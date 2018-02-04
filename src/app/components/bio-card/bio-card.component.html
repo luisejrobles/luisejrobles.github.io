@@ -1,3 +1,24 @@
 <mat-card>
-  {{ this.personalInfoService.personalInfo.name}}
+  <img [src]="this.personalInfoService.personalInfo.img" alt="" width="75%" height="75%">
+  <h1>
+    {{ this.personalInfoService.personalInfo.name}}
+  </h1>
+  <div class="short-bio">
+    
+    <p *ngFor="let paragraph of this.personalInfoService.personalInfo.shortBio">
+        {{ paragraph }}
+    </p> 
+    <!-- </p> -->
+  </div>
+  <div class="social-media">
+    <button mat-icon-button> 
+      <a class="fa fa-facebook-official" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.facebookURL"></a> 
+    </button> 
+    <button mat-icon-button> 
+      <a class="fa fa-github" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.githubURL"></a> 
+    </button> 
+    <button mat-icon-button> 
+      <a class="fa fa-linkedin-square" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.linkedinURL"></a> 
+    </button> 
+  </div>
 </mat-card>
