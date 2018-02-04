@@ -3,4 +3,13 @@
     <mat-icon>school</mat-icon>
     <h1>Education</h1>
   </div>
+  <mat-horizontal-stepper>
+    <mat-step *ngFor="let school of this.luisejrobles.schools.reverse()" >
+      <div class="step-info">
+        <h2>{{ school.name }}</h2>
+      </div>
+      
+
+    </mat-step>
+  </mat-horizontal-stepper>
 </mat-card>

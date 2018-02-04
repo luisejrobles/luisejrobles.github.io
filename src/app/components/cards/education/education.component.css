@@ -1,6 +1,8 @@
 .card-title {
     background-color: aquamarine;
+    margin-bottom: 50px;
     width: 100%;
+
 }
 .card-title mat-icon {
     /* background-color: aliceblue; */
@@ -12,8 +14,18 @@
     display: inline-block;
     float: left;
 }
+.step-info h2 {
+    float: left;
+    line-height: 100%;
+    margin-top: 50px;
+}
 mat-card {
     margin: 0 auto;
     width: 90%;
     height: 500px;
+}
+mat-horizontal-stepper {
+    background-color: azure;
+    margin: 0 auto;
+    width: 90%;
 }
