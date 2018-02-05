@@ -1,5 +1,10 @@
+.achievement-div {
+    background-color: green;
+    display: block;
+
+}
 .card-title {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-bottom: 50px;
     width: 100%;
 
@@ -14,10 +19,17 @@
     display: inline-block;
     float: left;
 }
-.step-info h2 {
-    float: left;
-    line-height: 100%;
+.step-info {
+    /* background-color: grey; */
+    display: block;
     margin-top: 50px;
+    width: 100%;
+}
+.school-name {
+    /* background-color: blueviolet; */
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
 }
 mat-card {
     margin: 0 auto;
@@ -25,7 +37,16 @@ mat-card {
     height: 500px;
 }
 mat-horizontal-stepper {
-    background-color: azure;
+    /* background-color: azure; */
     margin: 0 auto;
     width: 90%;
+}
+mat-icon {
+    display: inline-block;
+}
+mat-list {
+    text-align: left;
+}
+mat-list h2 {
+    display: inline-block;
 }

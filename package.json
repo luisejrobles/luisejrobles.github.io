@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^5.1.2",
+    "@angular/animations": "^5.2.3",
     "@angular/cdk": "^5.0.2",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -21,7 +21,7 @@
     "@angular/forms": "^5.0.0",
     "@angular/http": "^5.0.0",
     "@angular/material": "^5.0.2",
-    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser": "^5.2.3",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
     "angular2-fontawesome": "^0.9.3",

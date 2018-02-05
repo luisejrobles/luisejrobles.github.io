@@ -6,10 +6,16 @@
   <mat-horizontal-stepper>
     <mat-step *ngFor="let school of this.luisejrobles.schools.reverse()" >
       <div class="step-info">
-        <h2>{{ school.name }}</h2>
+        <div class="school-name">
+          <h2>{{ school.name }}</h2>
+        </div>
+        <mat-list>
+          <h2 mat-subheader>Achievements</h2>
+          <mat-list-item *ngFor="let achievement of school.achievements">
+            <h4 mat-line> {{ achievement }}</h4>
+          </mat-list-item>
+        </mat-list>
       </div>
-      
-
     </mat-step>
   </mat-horizontal-stepper>
 </mat-card>

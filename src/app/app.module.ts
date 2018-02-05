@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list';
 import {MatStepperModule} from '@angular/material/stepper';
 
 import { AboutmePageComponent } from './components/aboutme-page/aboutme-page.component';
@@ -37,11 +38,12 @@ import { EducationComponent } from './components/cards/education/education.compo
   imports: [
     Angular2FontawesomeModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
-    FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
     MatIconModule,
+    MatListModule,
     MatStepperModule,
     MatToolbarModule,
   ],
