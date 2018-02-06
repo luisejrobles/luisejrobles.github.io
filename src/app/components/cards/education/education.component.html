@@ -10,10 +10,31 @@
           <h2>{{ school.name }}</h2>
         </div>
         <mat-list>
+          
+          <h2 mat-subheader>Grade</h2>
+          <mat-list-item>
+            {{ school.grade }}
+          </mat-list-item>
+          
           <h2 mat-subheader>Achievements</h2>
           <mat-list-item *ngFor="let achievement of school.achievements">
-            <h4 mat-line> {{ achievement }}</h4>
+            <h4 mat-line> 
+              {{ achievement }}
+            </h4>
           </mat-list-item>
+          
+          <h2 mat-subheader>Period</h2>
+          <mat-list-item> 
+            {{ school.period }}
+          </mat-list-item>
+
+          <div class="location-div">
+            <h2 mat-subheader>Location: </h2>
+            <h3>
+              {{ school.location }}
+            </h3>
+          </div>
+
         </mat-list>
       </div>
     </mat-step>

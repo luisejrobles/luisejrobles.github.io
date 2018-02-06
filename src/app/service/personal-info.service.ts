@@ -9,9 +9,9 @@ export class PersonalInfoService {
     img: "../../assets/personal-img.png",
     shortBio: [
       "Computer Science Engineer",
-      "Front End Developer",
-      "GitHub Campus Expert",
       "Global Shapers Tijuana Hub member",
+      "GitHub Campus Expert",
+      "Front End Developer",
       "23 years old",
     ],
     hobbies: `Reading tech articles (Machine Learning, AI, Aerospacial, Cience, Web Development), poetry, sci-fi, history about Mexico, go cycling (about 2 years ago), 
@@ -22,6 +22,7 @@ export class PersonalInfoService {
     schools: [
       {
         name: "Preparatoria Federal Lázaro Cardenas",
+        grade: "Computer Technician",
         location:"Tijuana, BC",
         period: "2009-2012",
         achievements: [
@@ -31,6 +32,7 @@ export class PersonalInfoService {
       },
       {
         name: "Universidad Autónoma de Baja California",
+        grade: "Computer Science Engineer",
         location: "Tijuana, BC",
         period: "2012-2017",
         achievements: [
@@ -45,11 +47,34 @@ export class PersonalInfoService {
       githubURL: "https://www.github.com/luisejrobles",
       linkedinURL: "https://www.linkedin.com/me/luisejrobles"
     },
-    years: "23",
-    favoriteBooks : [
-      {name: "20,000 leagues under the sea", author: "Julio Verne"},
-      {name: "El país de uno", author: "Denisse Dresser"}
-    ]
+    volunteer: [
+      {
+        name: "Google Developer Group Tijuana member",
+        description: "",
+        date: "2012 - 2017"
+      },
+      {
+        name: "We Can Code Hackathon - coach",
+        description: "",
+        date: ""
+      },
+      {
+        name: "Tijuana Innovadora 2012 - technician volunteer",
+        description: "",
+        date: ""
+      },
+      {
+        name: "",
+        description: "",
+        date: ""
+      },
+      {
+        name: "Startup Weekend 2017 High School - coach",
+        description: "",
+        date: ""
+      }
+    ],
+    years: "23"
   }
 
   luisejrobles = new PersonalInfoData(this.personalInfo);
