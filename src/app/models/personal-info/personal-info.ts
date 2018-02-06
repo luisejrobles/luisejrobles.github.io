@@ -1,6 +1,5 @@
 import { Schools } from "./schools";
 import { SocialMedia } from "./social-media";
-import { Books } from "./books";
 import { Volunteer } from "./volunteer";
 
 export interface PersonalInfo {

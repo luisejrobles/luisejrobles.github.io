@@ -21,8 +21,8 @@ import { ProfesionalPageComponent } from './components/profesional-page/profesio
 import { PersonalInfoService } from './service/personal-info.service';
 import { BioCardComponent } from './components/bio-card/bio-card.component';
 import { EducationComponent } from './components/cards/education/education.component';
-import { VolunteerComponent } from './cards/volunteer/volunteer.component';
-import { TalksComponent } from './cards/talks/talks.component';
+import { VolunteerComponent } from './components/cards/volunteer/volunteer.component';
+import { TalksComponent } from './components/cards/talks/talks.component';
 
 
 

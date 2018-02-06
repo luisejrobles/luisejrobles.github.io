@@ -1,5 +1,3 @@
-
-import { Books } from './books';
 import { PersonalInfo } from './personal-info';
 
 export class PersonalInfoData {
