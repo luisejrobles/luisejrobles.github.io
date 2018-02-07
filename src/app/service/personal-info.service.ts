@@ -50,7 +50,7 @@ export class PersonalInfoService {
     },
     volunteer: [
       {
-        name: "Google Developer Group Tijuana member",
+        name: "Google Developer Group Tijuana organizer member",
         description: `GDG Tijuana it's an official Google Tech community 
         where people exchange ideas, knowledge, projects and more. 
         As part of it, I was in charge of creating and organizing new events in Tijuana, Mexico.
@@ -63,7 +63,7 @@ export class PersonalInfoService {
         date: "2012 - 2017"
       },
       {
-        name: "We Can Code Hackathon - coach",
+        name: "We Can Code Hackathon as coach",
         description: `We Can Code Hackathon is the most important hackathon in Baja and it's held in Ensenada Mexico
         year after year, MLH and We Can Code organizations are sponsors of the event among other impontant ones. 
         I had the oportunity to attend as a mentor to share my knowledge with the participants and give them ideas how 
@@ -71,7 +71,7 @@ export class PersonalInfoService {
         date: "2015"
       },
       {
-        name: "Tijuana Innovadora 2012 - technician volunteer",
+        name: "Tijuana Innovadora 2012 as technician volunteer",
         description: `One of the most important event in Baja for showcasing technology and industry potential of Baja California to the world, 
         known as a massive event where nearly 5000 persons attend per day with a duration of two full weeks of workshops, exhibitions and talks
         with the participation of characters like Steve Wozniak (Co-founder of Apple), Blake Mycoskie (ex CEO of Toms), and many more.  
@@ -80,7 +80,7 @@ export class PersonalInfoService {
         date: "2012"
       },
       {
-        name: "Startup Weekend 2017 High School - coach",
+        name: "Startup Weekend 2017 High School as coach",
         description: "",
         date: "2017"
       }
