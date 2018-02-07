@@ -1,15 +1,17 @@
 mat-card {
     /* background-color: grey; */
+    display: inline-block;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 90%;
-    height: 650px;
+    width: 45%;
+}
+mat-list {
+    text-align: left;
 }
 .card-title {
     /* background-color: aquamarine; */
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 100%;
-
 }
 .card-title mat-icon {
     /* background-color: aliceblue; */
@@ -20,4 +22,7 @@ mat-card {
 .card-title h1 {
     display: inline-block;
     float: left;
+}
+.volunteer-programs {
+    text-align: justify;
 }

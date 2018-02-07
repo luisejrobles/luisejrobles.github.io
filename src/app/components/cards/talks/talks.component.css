@@ -1,0 +1,24 @@
+mat-card {
+    /* background-color: grey; */
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 45%;
+}
+.card-title {
+    /* background-color: aquamarine; */
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+.card-title mat-icon {
+    /* background-color: aliceblue; */
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.card-title h1 {
+    display: inline-block;
+    float: left;
+}

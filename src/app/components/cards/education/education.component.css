@@ -1,3 +1,24 @@
+mat-card {
+    /* background-color: grey; */
+    margin: 0 auto;
+    width: 50%;
+    /* height: 650px; */
+}
+mat-horizontal-stepper {
+    /* background-color: azure; */
+    margin: 0 auto;
+    width: 100%;
+}
+mat-icon {
+    display: inline-block;
+}
+mat-list {
+    text-align: left;
+}
+mat-list h2 {
+    display: inline-block;
+    color: purple;
+}
 .achievement-div {
     background-color: green;
     display: block;
@@ -32,25 +53,4 @@
     display: block;
     text-align: center;
     margin-bottom: 10px;
-}
-mat-card {
-    /* background-color: grey; */
-    margin: 0 auto;
-    width: 90%;
-    height: 650px;
-}
-mat-horizontal-stepper {
-    /* background-color: azure; */
-    margin: 0 auto;
-    width: 100%;
-}
-mat-icon {
-    display: inline-block;
-}
-mat-list {
-    text-align: left;
-}
-mat-list h2 {
-    display: inline-block;
-    color: purple;
 }

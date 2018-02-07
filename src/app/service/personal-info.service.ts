@@ -46,7 +46,7 @@ export class PersonalInfoService {
       email: "luisejimenezrobles@gmail.com",
       facebookURL: "https://www.facebook.com/luisejrobles",
       githubURL: "https://www.github.com/luisejrobles",
-      linkedinURL: "https://www.linkedin.com/me/luisejrobles"
+      linkedinURL: "https://www.linkedin.com/in/luisejrobles/"
     },
     volunteer: [
       {
