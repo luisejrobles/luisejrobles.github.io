@@ -51,28 +51,38 @@ export class PersonalInfoService {
     volunteer: [
       {
         name: "Google Developer Group Tijuana member",
-        description: "",
+        description: `GDG Tijuana it's an official Google Tech community 
+        where people exchange ideas, knowledge, projects and more. 
+        As part of it, I was in charge of creating and organizing new events in Tijuana, Mexico.
+        I developed a strong sense and hability for logistics and organization in events as we created  
+        DevFest and Google IO Extended event, both are mid/large scale events 
+        where nearly 100 - 150 people attend.
+        Also as part of GDG for nearly 5 years, I gave different talks and workshops on meetups and companies 
+        where the point was to share my knowledge and create a more united tech community.
+        `,
         date: "2012 - 2017"
       },
       {
         name: "We Can Code Hackathon - coach",
-        description: "",
-        date: ""
+        description: `We Can Code Hackathon is the most important hackathon in Baja and it's held in Ensenada Mexico
+        year after year, MLH and We Can Code organizations are sponsors of the event among other impontant ones. 
+        I had the oportunity to attend as a mentor to share my knowledge with the participants and give them ideas how 
+        they could implement their project.`,
+        date: "2015"
       },
       {
         name: "Tijuana Innovadora 2012 - technician volunteer",
-        description: "",
-        date: ""
-      },
-      {
-        name: "",
-        description: "",
-        date: ""
+        description: `One of the most important event in Baja for showcasing technology and industry potential of Baja California to the world, 
+        known as a massive event where nearly 5000 persons attend per day with a duration of two full weeks of workshops, exhibitions and talks
+        with the participation of characters like Steve Wozniak (Co-founder of Apple), Blake Mycoskie (ex CEO of Toms), and many more.  
+        I was in charge of the technical area, coordinating the camera persons, switching slides, coordinating lights, making sure every device in the theater was working
+        correctly.`,
+        date: "2012"
       },
       {
         name: "Startup Weekend 2017 High School - coach",
         description: "",
-        date: ""
+        date: "2017"
       }
     ],
     years: "23"
