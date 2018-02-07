@@ -1,16 +1,40 @@
+h4 {
+    margin-bottom: 5px;
+}
 mat-card {
     /* background-color: grey; */
     display: inline-block;
     float: left;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 43%;
+    width: 42%;
+}
+mat-list {
+    text-align: left;
+}
+.talk-description {
+    color: #636e72;
+    margin-bottom: 3px;
+}
+.talk-date {
+    color: #636e72;
+    margin-bottom: 3px;
+    text-align: right;
+    width: 100%;
+}
+.talk-location {
+    color: #636e72;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.talk-location mat-icon {
+    font-size: 15px;
+    color: #636e72;
 }
 .card-title {
     /* background-color: aquamarine; */
     margin-bottom: 50px;
     width: 100%;
-
 }
 .card-title mat-icon {
     /* background-color: aliceblue; */
@@ -21,4 +45,7 @@ mat-card {
 .card-title h1 {
     display: inline-block;
     float: left;
+}
+.talks-container {
+    text-align: justify;
 }

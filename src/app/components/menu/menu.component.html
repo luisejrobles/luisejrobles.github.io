@@ -1,5 +1,9 @@
-<mat-toolbar color="primary" class="mat-elevation-z7">
-        @luisejrobles
+<mat-toolbar color="primary" class="mat-elevation-z7 mat-typography">
+        <button mat-button routerLink=".">
+                <h1>
+                        @luisejrobles
+                </h1>
+        </button> 
         <span class="fill-remaining-space"></span>
         <button mat-button *ngFor="let button of menuButtons" (click)="checkButton(button)">{{ button.name }}</button> 
 </mat-toolbar>

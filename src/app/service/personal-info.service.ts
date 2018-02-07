@@ -23,21 +23,21 @@ export class PersonalInfoService {
       {
         name: "Git and Github Intro Workshop",
         description: "An introductory workshop using git and Github as tools for software development.",
-        date: "December 2017",
+        date: "Dec 2017",
         event: "Virtua Fest 2017",
         location: "Durango, Mexico."
       },
       {
         name: "Intro to Project Tango",
         description: "An Introduction in Project Tango by Google, what can people create, how do they use it and more.",
-        date: "June 2016",
+        date: "Jun 2016",
         event: "GAFE G Suite Introductory workshop",
         location: "Tijuana, Mexico."
       },
       {
         name: "Intro to Project Tango",
         description: "An Introduction in Project Tango by Google, what can people create, how do they use it and more.",
-        date: "June 2016",
+        date: "Jun 2016",
         event: "GAFE G Suite Introductory workshop",
         location: "Tijuana, Mexico."
       },
