@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalInfo } from '../../../models/personal-info/personal-info';
+import { PersonalInfoService } from '../../../service/personal-info.service';
 
 @Component({
   selector: 'app-talks',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./talks.component.css']
 })
 export class TalksComponent implements OnInit {
+  luisejrobles: PersonalInfo;
 
-  constructor() { }
+  constructor( private personalInfoService: PersonalInfoService) { }
 
   ngOnInit() {
+    this.luisejrobles = this.personalInfoService.personalInfo;
   }
 
 }

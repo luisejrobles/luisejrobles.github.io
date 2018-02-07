@@ -19,6 +19,30 @@ export class PersonalInfoService {
     //                                 financial stuff. 
     //                                 Ocasionally I write about daily stuff, poetry, short stories. Ultimately I appreciate cultural 
     //                                 things like going to museums, watching paintings, exploring urban installations. `,
+    talks: [
+      {
+        name: "Git and Github Intro Workshop",
+        description: "An introductory workshop using git and Github as tools for software development.",
+        date: "December 2017",
+        event: "Virtua Fest 2017",
+        location: "Durango, Mexico."
+      },
+      {
+        name: "Intro to Project Tango",
+        description: "An Introduction in Project Tango by Google, what can people create, how do they use it and more.",
+        date: "June 2016",
+        event: "GAFE G Suite Introductory workshop",
+        location: "Tijuana, Mexico."
+      },
+      {
+        name: "Intro to Project Tango",
+        description: "An Introduction in Project Tango by Google, what can people create, how do they use it and more.",
+        date: "June 2016",
+        event: "GAFE G Suite Introductory workshop",
+        location: "Tijuana, Mexico."
+      },
+      
+    ],
     schools: [
       {
         name: "Preparatoria Federal Lázaro Cardenas",
@@ -43,7 +67,7 @@ export class PersonalInfoService {
       }
     ],
     socialMedia: {
-      email: "luisejimenezrobles@gmail.com",
+      email: "mailto:luisejimenezrobles@gmail.com",
       facebookURL: "https://www.facebook.com/luisejrobles",
       githubURL: "https://www.github.com/luisejrobles",
       linkedinURL: "https://www.linkedin.com/in/luisejrobles/"
@@ -54,9 +78,8 @@ export class PersonalInfoService {
         description: `GDG Tijuana it's an official Google Tech community 
         where people exchange ideas, knowledge, projects and more. 
         As part of it, I was in charge of creating and organizing new events in Tijuana, Mexico.
-        I developed a strong sense and hability for logistics and organization in events as we created  
-        DevFest and Google IO Extended event, both are mid/large scale events 
-        where nearly 100 - 150 people attend.
+        Developed a strong sense and hability for logistics and organization as we ran  
+        DevFest and Google IO Extended events, both are mid/large scale events where nearly 100 - 150 people attend.
         Also as part of GDG for nearly 5 years, I gave different talks and workshops on meetups and companies 
         where the point was to share my knowledge and create a more united tech community.
         `,
@@ -81,7 +104,10 @@ export class PersonalInfoService {
       },
       {
         name: "Startup Weekend 2017 High School [coach]",
-        description: "",
+        description: `An iniciative by Tech Stars where young people can learn from expertise people about startups, bussiness, tech and more with
+        a duration of 2 days where participants learned how they can create effective, well structured startups and manage them.
+        Was invited because of my experience with tech and my startup GAFE Tijuana where I gave courses and capacitations to schools to help them implement
+        Google Suite for Education.`,
         date: "2017"
       }
     ],

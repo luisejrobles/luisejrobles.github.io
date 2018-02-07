@@ -11,9 +11,15 @@ mat-card {
 mat-list {
     text-align: left;
 }
-p {
+.event-description {
     color: #636e72;
-    margin-bottom: 30px;
+    margin-bottom: px;
+}
+.event-date {
+    color: #636e72;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 100%;
 }
 
 .card-title {
