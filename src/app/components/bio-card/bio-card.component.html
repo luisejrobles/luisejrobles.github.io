@@ -3,8 +3,7 @@
   <h1>
     {{ this.personalInfoService.personalInfo.name}}
   </h1>
-  <div class="short-bio">
-    
+  <div class="short-bio"> 
     <p *ngFor="let paragraph of this.personalInfoService.personalInfo.shortBio">
         {{ paragraph }}
     </p> 

@@ -1,3 +1,6 @@
+h4 {
+    margin-bottom: 5px;
+}
 mat-card {
     /* background-color: grey; */
     display: inline-block;
@@ -8,6 +11,11 @@ mat-card {
 mat-list {
     text-align: left;
 }
+p {
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
 .card-title {
     /* background-color: aquamarine; */
     margin-bottom: 50px;
