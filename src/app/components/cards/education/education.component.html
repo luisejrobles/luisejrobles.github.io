@@ -1,13 +1,13 @@
 <mat-card class="mat-typography">
   <div class="card-title">
     <mat-icon>school</mat-icon>
-    <h1>Education</h1>
+    <h1 class="mat-headline">Education</h1>
   </div>
   <mat-horizontal-stepper>
     <mat-step *ngFor="let school of this.luisejrobles.schools.reverse()" >
       <div class="step-info">
         <div class="school-name">
-          <h2>{{ school.name }}</h2>
+          <h2 class="mat-title">{{ school.name }}</h2>
         </div>
         <mat-list>
           

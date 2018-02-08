@@ -1,7 +1,9 @@
 mat-card {
     /* background-color: grey; */
+    float: left;
+    display: inline-block;
     margin: 0 auto;
-    width: 50%;
+    width: 85%;
     /* height: 650px; */
 }
 mat-horizontal-stepper {

@@ -1,3 +1,8 @@
+.column {
+    /* background-color: grey; */
+    float: left;
+    width: 50%;
+}
 .personal-description {
     /* background-color: red; */
     display: inline-block;
