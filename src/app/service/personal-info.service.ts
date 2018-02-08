@@ -94,7 +94,7 @@ export class PersonalInfoService {
         date: "2015"
       },
       {
-        name: "Tijuana Innovadora 2012 as [technician volunteer]",
+        name: "Tijuana Innovadora 2012 [technician volunteer]",
         description: `One of the most important event in Baja for showcasing technology and industry potential of Baja California to the world, 
         known as a massive event where nearly 5000 persons attend per day with a duration of two full weeks of workshops, exhibitions and talks
         with the participation of characters like Steve Wozniak (Co-founder of Apple), Blake Mycoskie (ex CEO of Toms), and many more.  
