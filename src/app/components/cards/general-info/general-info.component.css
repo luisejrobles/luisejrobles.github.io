@@ -5,19 +5,8 @@ mat-card {
     margin-bottom: 30px;
     width: 85%;
 }
-mat-icon {
-    display: inline-block;
-}
-
-.achievement-div {
-    background-color: green;
-    display: block;
-}
 .card-title {
-    /* background-color: aquamarine; */
     margin-bottom: 20px;
-    width: 100%;
-
 }
 .card-title mat-icon {
     /* background-color: aliceblue; */
@@ -29,18 +18,4 @@ mat-icon {
     display: inline-block;
     float: left;
 }
-.location-div {
-    float: right;
-}
-.step-info {
-    /* background-color: grey; */
-    display: block;
-    margin-top: 20px;
-    width: 100%;
-}
-.school-name {
-    /* background-color: blueviolet; */
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-}
+
