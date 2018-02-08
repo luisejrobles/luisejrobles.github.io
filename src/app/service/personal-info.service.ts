@@ -45,6 +45,10 @@ export class PersonalInfoService {
     //                                 financial stuff. 
     //                                 Ocasionally I write about daily stuff, poetry, short stories. Ultimately I appreciate cultural 
     //                                 things like going to museums, watching paintings, exploring urban installations. `,
+    programmingSkills: [
+      "Python","C", "C++", "Java", "Javascript", "Typescript", "Polymer", "Scikit learn", "ASM x86", "Arduino", "Raspberry Pi",
+      "PubNub", "SCRUM", "NodeJs", "Android", "Ionic" 
+    ],
     talks: [
       {
         name: "Git and Github Intro Workshop",
@@ -91,6 +95,9 @@ export class PersonalInfoService {
           "Curator of Cimadev."
         ],
       }
+    ],
+    skills: [
+      "Respectful", "Organized", "Communicative", "Commited"
     ],
     socialMedia: {
       email: "mailto:luisejimenezrobles@gmail.com",

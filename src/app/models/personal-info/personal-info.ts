@@ -9,6 +9,7 @@ export interface PersonalInfo {
     img: string;
     jobs: Job[];
     name: string;
+    programmingSkills: string[];
     talks: Talk[];
     schools: Schools[];
     shortBio: string[];
