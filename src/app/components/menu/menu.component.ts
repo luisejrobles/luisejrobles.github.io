@@ -13,8 +13,7 @@ export class MenuComponent implements OnInit {
 
   menuButtons: MenuInterface[] = [
     {name: 'About me', route: '/about-me'},
-    {name: 'Professional', route: '/professional'},
-    {name: 'Contact', route: '/contact'}  
+    {name: 'Professional', route: '/professional'}
   ]
 
   constructor(private router: Router) { }

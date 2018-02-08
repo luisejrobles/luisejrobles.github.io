@@ -24,12 +24,13 @@ mat-card {
     width: 100%;
 }
 .card-title mat-icon {
-    /* background-color: aliceblue; */
+    color: #b2bec3;
     display: inline-block;
     float: left;
     margin-right: 15px;
 }
 .card-title h1 {
+    color: #b2bec3;
     display: inline-block;
     float: left;
 }

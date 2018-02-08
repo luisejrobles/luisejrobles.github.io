@@ -7,6 +7,32 @@ export class PersonalInfoService {
   personalInfo: PersonalInfo = {
     name: "Luis Eduardo Jiménez Robles",
     img: "../../assets/personal-img.png",
+    jobs: [
+      {
+        companyName: "GPOMCT",
+        career: "Software Developer and Project Manager",
+        jobDescription: "",
+        period: "Nov 2017 - to date",
+        skills: `Python, Angular 2, PubNub, Organizational Flow, Git Flow, 
+        Raspberry Pi, Information Flow, Nodejs, Typescript, Adobe XD, RxJS,
+        IoT commands and live tracking, SCRUM implementation, CSS, HTML, JS.`
+      },
+      {
+        companyName: "Proyectos UABC",
+        career: "Software developer",
+        jobDescription: "",
+        period: "2016 - Nov 2017",
+        skills: "Polymer, CSS, JS, Nodejs, Amcharts, Python, Qt, Material Design"
+      },
+      {
+        companyName: "Tecnova",
+        career: "Customer Software Support",
+        jobDescription: "",
+        period: "2013-2017",
+        skills: `Crestron platform, organizative work, hardware support,
+        hardware installation, software development.` 
+      },
+    ],
     shortBio: [
       "Computer Science Engineer",
       "Global Shapers Tijuana Hub member",

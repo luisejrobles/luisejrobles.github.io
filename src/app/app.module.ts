@@ -13,7 +13,6 @@ import { AboutmePageComponent } from './components/aboutme-page/aboutme-page.com
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { ContactsComponent } from './components/contacts/contacts.component';
 
 import { MenuComponent } from './components/menu/menu.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
@@ -24,6 +23,9 @@ import { EducationComponent } from './components/cards/education/education.compo
 import { VolunteerComponent } from './components/cards/volunteer/volunteer.component';
 import { TalksComponent } from './components/cards/talks/talks.component';
 import { GeneralInfoComponent } from './components/cards/general-info/general-info.component';
+import { JobsComponent } from './components/cards/jobs/jobs.component';
+import { SkillsComponent } from './components/cards/skills/skills.component';
+import { AwardsComponent } from './components/cards/awards/awards.component';
 
 
 
@@ -32,7 +34,6 @@ import { GeneralInfoComponent } from './components/cards/general-info/general-in
     AboutmePageComponent,
     AppComponent,
     BioCardComponent,
-    ContactsComponent,
     EducationComponent,
     MenuComponent,
     ProfesionalPageComponent,
@@ -40,6 +41,9 @@ import { GeneralInfoComponent } from './components/cards/general-info/general-in
     VolunteerComponent,
     TalksComponent,
     GeneralInfoComponent,
+    JobsComponent,
+    SkillsComponent,
+    AwardsComponent,
   ],
   imports: [
     Angular2FontawesomeModule,
