@@ -5,9 +5,7 @@ mat-card {
     margin-bottom: 30px;
     width: 85%;
 }
-.card-title {
-    margin-bottom: 20px;
-}
+
 .card-title mat-icon {
     /* background-color: aliceblue; */
     display: inline-block;
@@ -17,5 +15,9 @@ mat-card {
 .card-title h1 {
     display: inline-block;
     float: left;
+}
+.general-bio-container {
+    margin-top: 50px;
+    text-align: justify;
 }
 
