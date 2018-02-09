@@ -5,8 +5,8 @@
       <h1>Skills</h1>
     </div>
     
-    <div *ngFor="let skill of this.luisejrobles.skills" class="skills">
-      <p class="skill">{{ skill }}</p>
+    <div class="skills">
+      <p *ngFor="let skill of this.luisejrobles.skills" class="skill"> {{ skill }}</p>
     </div>
     
   </mat-card>
