@@ -44,6 +44,6 @@ mat-list h2 {
 .school-name {
     /* color: #3F51B5; */
     display: block;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2px;
 }
