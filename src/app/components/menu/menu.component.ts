@@ -10,10 +10,11 @@ import { Router } from '@angular/router';
 
 export class MenuComponent implements OnInit {
   route:string;
+  resumeURL = "https://github.com/luisejrobles/luisejrobles.github.io/blob/master/src/assets/Resume.pdf"
 
   menuButtons: MenuInterface[] = [
-    {name: 'About me', route: '/about-me'},
-    {name: 'Professional', route: '/professional'}
+    {name: 'ABOUT', route: '/about-me'},
+    {name: 'PROFESSIONAL', route: '/professional'}
   ]
 
   constructor(private router: Router) { }
@@ -28,7 +29,8 @@ export class MenuComponent implements OnInit {
   }
 
   openPDF() {
-    var fileURL = "./../../../assets/Resume";
+    var blob = new Blob(["../../../assets/Resume"], { type: 'application/pdf' });
+    var fileURL = URL.createObjectURL(blob);
     window.open(fileURL);
   }
 

@@ -1,25 +1,12 @@
 <mat-card class="mat-typography">
   
     <div class="card-title">
-      <mat-icon>code</mat-icon>
-      <h1>Jobs</h1>
+      <mat-icon>done_all</mat-icon>
+      <h1>Skills</h1>
     </div>
     
-    <div *ngFor="let event of this.luisejrobles.volunteer" class="volunteer-programs">
-      <h4> 
-        {{ event.name }}
-      </h4>
-      <p class="mat-caption event-description">
-        {{ event.description }}
-      </p>
-      <p class="event-date">
-        <span>
-          <b>Period:</b>
-        </span>
-        <span class="mat-caption">
-          {{ event.date }}
-        </span>
-      </p>
+    <div *ngFor="let skill of this.luisejrobles.skills" class="skills">
+      <p class="skill">{{ skill }}</p>
     </div>
     
   </mat-card>

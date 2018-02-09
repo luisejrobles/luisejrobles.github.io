@@ -1,20 +1,20 @@
 <mat-card>
-  <img [src]="this.personalInfoService.personalInfo.img" alt="" width="60%" height="60%">
+  <img [src]="this.luisejrobles.img" alt="" width="60%" height="60%">
   <h1>
     {{ this.personalInfoService.personalInfo.name}}
   </h1>
   <div class="short-bio"> 
-    <p *ngFor="let paragraph of this.personalInfoService.personalInfo.shortBio">
+    <p *ngFor="let paragraph of this.luisejrobles.shortBio">
         {{ paragraph }}
     </p> 
     <!-- </p> -->
   </div>
   <div class="social-media">
    
-    <a mat-icon-button class="fa fa-facebook" color="primary" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.facebookURL"></a>
-    <a mat-icon-button class="fa fa-github" color="primary" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.githubURL"></a>  
-    <a mat-icon-button class="fa fa-linkedin-square" color="primary" target="_blank" [href]="this.personalInfoService.personalInfo.socialMedia.linkedinURL"></a> 
-    <a mat-icon-button class="fa fa-envelope" color="primary" [href]="this.personalInfoService.personalInfo.socialMedia.email"></a> 
+    <a mat-icon-button class="fa fa-facebook" color="primary" target="_blank" [href]="this.luisejrobles.socialMedia.facebookURL"></a>
+    <a mat-icon-button class="fa fa-github" color="primary" target="_blank" [href]="this.luisejrobles.socialMedia.githubURL"></a>  
+    <a mat-icon-button class="fa fa-linkedin-square" color="primary" target="_blank" [href]="this.luisejrobles.socialMedia.linkedinURL"></a> 
+    <a mat-icon-button class="fa fa-envelope" color="primary" [href]="this.luisejrobles.socialMedia.email"></a> 
    
   </div>
 </mat-card>
