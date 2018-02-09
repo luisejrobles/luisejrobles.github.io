@@ -9,9 +9,11 @@ import { PersonalInfo } from '../../../models/personal-info/personal-info';
 })
 export class GeneralInfoComponent implements OnInit {
   luisejrobles: PersonalInfo;
+  isSelected: boolean;
   constructor(private personalInfoService: PersonalInfoService) { }
 
   ngOnInit() {
+    this.isSelected = false;
     this.luisejrobles = this.personalInfoService.personalInfo;
   }
 

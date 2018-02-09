@@ -15,4 +15,7 @@
       specialized in Angular.
     </p>      
   </div>
+  <mat-chip-list>
+    <mat-chip *ngFor="let skill of this.luisejrobles.skills" color="accent" selected="false">{{ skill }}</mat-chip>
+  </mat-chip-list>
 </mat-card>

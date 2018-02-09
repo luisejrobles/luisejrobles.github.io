@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatChipsModule} from '@angular/material/chips';
+
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatStepperModule} from '@angular/material/stepper';
@@ -24,7 +26,6 @@ import { VolunteerComponent } from './components/cards/volunteer/volunteer.compo
 import { TalksComponent } from './components/cards/talks/talks.component';
 import { GeneralInfoComponent } from './components/cards/general-info/general-info.component';
 import { JobsComponent } from './components/cards/jobs/jobs.component';
-import { SkillsComponent } from './components/cards/skills/skills.component';
 import { AwardsComponent } from './components/cards/awards/awards.component';
 
 
@@ -42,7 +43,6 @@ import { AwardsComponent } from './components/cards/awards/awards.component';
     TalksComponent,
     GeneralInfoComponent,
     JobsComponent,
-    SkillsComponent,
     AwardsComponent,
   ],
   imports: [
@@ -52,6 +52,7 @@ import { AwardsComponent } from './components/cards/awards/awards.component';
     BrowserModule,
     MatButtonModule,
     MatCardModule,
+    MatChipsModule,
     MatIconModule,
     MatListModule,
     MatStepperModule,
