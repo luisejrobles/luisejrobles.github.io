@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalInfo } from '../../../models/personal-info/personal-info';
+import { PersonalInfoService } from '../../../service/personal-info.service';
 
 @Component({
   selector: 'app-jobs',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jobs.component.css']
 })
 export class JobsComponent implements OnInit {
-
-  constructor() { }
+  luisejrobles: PersonalInfo;
+  constructor( private personalInfoService: PersonalInfoService) { }
 
   ngOnInit() {
+    this.luisejrobles = this.personalInfoService.personalInfo;
   }
 
 }

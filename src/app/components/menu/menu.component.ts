@@ -27,4 +27,9 @@ export class MenuComponent implements OnInit {
     this.router.navigate([this.route]);
   }
 
+  openPDF() {
+    var fileURL = "./../../../assets/Resume";
+    window.open(fileURL);
+  }
+
 }

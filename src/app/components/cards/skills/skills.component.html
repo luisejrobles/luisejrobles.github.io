@@ -1,3 +1,25 @@
-<p>
-  skills works!
-</p>
+<mat-card class="mat-typography">
+  
+    <div class="card-title">
+      <mat-icon>code</mat-icon>
+      <h1>Jobs</h1>
+    </div>
+    
+    <div *ngFor="let event of this.luisejrobles.volunteer" class="volunteer-programs">
+      <h4> 
+        {{ event.name }}
+      </h4>
+      <p class="mat-caption event-description">
+        {{ event.description }}
+      </p>
+      <p class="event-date">
+        <span>
+          <b>Period:</b>
+        </span>
+        <span class="mat-caption">
+          {{ event.date }}
+        </span>
+      </p>
+    </div>
+    
+  </mat-card>

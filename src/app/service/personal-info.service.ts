@@ -11,8 +11,11 @@ export class PersonalInfoService {
       {
         companyName: "GPOMCT",
         career: "Software Developer and Project Manager",
-        jobDescription: "",
-        period: "Nov 2017 - to date",
+        jobDescription: `Entered as Junior Software Developer designing and creating platforms but after months,
+        I was given the task of Project Manager because of my oganizative skills. 
+        Creating the user stories, product backlog, sprint planning, performance of the SCRUM team and more is
+        what I'm in charge.`,
+        period: "2017 - to date",
         skills: `Python, Angular 2, PubNub, Organizational Flow, Git Flow, 
         Raspberry Pi, Information Flow, Nodejs, Typescript, Adobe XD, RxJS,
         IoT commands and live tracking, SCRUM implementation, CSS, HTML, JS.`
@@ -20,15 +23,19 @@ export class PersonalInfoService {
       {
         companyName: "Proyectos UABC",
         career: "Software developer",
-        jobDescription: "",
-        period: "2016 - Nov 2017",
+        jobDescription: `Choosen by a teacher with the purpose of creating a team of talented developers to start begin a
+        real company project, was part of the team where we developed a real time tracking platform for devices and cellphones.
+        The platform was a  successful private project at the company because of the performance and how we designed the project. `,
+        period: "2016 - 2017",
         skills: "Polymer, CSS, JS, Nodejs, Amcharts, Python, Qt, Material Design"
       },
       {
         companyName: "Tecnova",
-        career: "Customer Software Support",
-        jobDescription: "",
-        period: "2013-2017",
+        career: "Customer Software Support and Jr. Engineer",
+        jobDescription: `My first contact with applied technology as a professional was installing, updating and managing Smart Boards. Devices
+        which I installed at schools and companies. Also I was in charge of giving support to clients and prospects, shaping offers and designing
+        UI for a side bussiness where we used Crestron devices.`,
+        period: "2013 - 2017",
         skills: `Crestron platform, organizative work, hardware support,
         hardware installation, software development.` 
       },
