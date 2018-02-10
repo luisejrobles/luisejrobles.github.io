@@ -1,14 +1,13 @@
 <mat-card class="mat-typography">
-  
   <div class="card-title">
     <mat-icon>pan_tool</mat-icon>
     <h1>Volunteer</h1>
   </div>
   
   <div *ngFor="let event of this.luisejrobles.volunteer" class="volunteer-programs">
-    <h4> 
-      {{ event.name }}
-    </h4>
+    <h3>{{ event.name }}</h3>
+    <h4 class="mat-caption event-role">{{ event.role }}</h4>
+
     <p class="mat-caption event-description">
       {{ event.description }}
     </p>
@@ -21,5 +20,4 @@
       </span>
     </p>
   </div>
-  
 </mat-card>

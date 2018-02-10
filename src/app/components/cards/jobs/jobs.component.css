@@ -10,8 +10,13 @@ mat-card {
     width: 85%;
 }
 mat-chip {
-    clear: both;
     margin-bottom: 5px;
+}
+.blank {
+    background-color: white;
+    clear: both;
+    height: 1px;
+    width: 100%;
 }
 .event-description {
     color: #636e72;
@@ -42,5 +47,6 @@ mat-chip {
     float: left;
 }
 .jobs {
+    clear: both;
     text-align: justify;
 }

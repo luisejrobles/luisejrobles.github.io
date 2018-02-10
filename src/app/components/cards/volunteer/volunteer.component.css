@@ -18,6 +18,9 @@ mat-card {
     text-align: right;
     width: 100%;
 }
+.event-role {
+    margin-top: 1px;
+}
 .card-title {
     /* background-color: aquamarine; */
     margin-bottom: 50px;
