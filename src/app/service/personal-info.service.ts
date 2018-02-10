@@ -128,9 +128,9 @@ export class PersonalInfoService {
       {
         name: "Startup Weekend 2017 High School",
         role: "Coach",
-        description: `An iniciative by Tech Stars where young people can learn from expertise people about startups, bussiness, tech and more with
-        a duration of 2 days where participants learned how they can create effective, well structured startups and manage them.
-        Was invited because of my experience with tech and my startup GAFE Tijuana where I gave courses and capacitations to schools to help them implement
+        description: `An iniciative by Tech Stars where young people can learn from expertises about startups, bussiness, tech and more
+        in 2 days where participants learn how they can create effective, well structured startups with all of its components.
+        Invited because of my experience with tech startup GAFE Tijuana where I gave courses and capacitations to schools using
         Google Suite for Education.`,
         date: "2017"
       },

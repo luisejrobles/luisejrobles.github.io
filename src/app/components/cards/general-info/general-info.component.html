@@ -1,21 +1,20 @@
 <mat-card class="mat-typography">
   <div class="card-title">
     <mat-icon>account_box</mat-icon>
-    <h1 color="primary">General Bio</h1>
+    <h1>General Bio</h1>
   </div>
   <div class="general-bio-container">
     <p>
-      Born and raised in Tijuana, Baja California Mexico<br>Passionate about geek - tech - arts - cultural things but most important in making things done.<br>
-      most of my time in university I was involved with non profit organizations and volunteer programs developing solutions for my community and school.
-      Participating and creating events, workshops, meetups and more and really interested in closing the gap between technology - school and community in Mexico. I think
-      there's still a lot to do and trying my best to fix it.<br>
-      Constantly in hackathons participating, as coach or even mentor. Won a few awards, swag, coupons and other things at them but the most valuable thing
-      at least for me was knowing a lot of creative and talented people.<br>
-      Graduated from Computer Science in 2017 right now I'm focusing in creating a career out of Machine Learning, working as a Software Developer
-      specialized in Angular.
+      Born and raised in Tijuana, Baja California Mexico passionate about geek - tech - arts - cultural things and making things done.<br>
+      Most of my time in university I was involved with non profit organizations and volunteer programs creating solutions for my city and school
+      participating and creating events, workshops, meetups and more. Really interested in closing the gap between technology, school and community in Mexico. I think
+      there's still a lot to do and I'm trying my best to solve it.<br>
+      Constantly in hackathons as coach, mentor and/or participating. Won a few awards, swag, coupons and other things but the most valuable thing
+      that happens in the event is knowing a lot of creative and talented people.<br>
+      Right now I'm focusing in a Machine Learning career.
     </p>      
   </div>
   <mat-chip-list>
-    <mat-chip *ngFor="let skill of this.luisejrobles.skills" color="accent" selected="false">{{ skill }}</mat-chip>
+    <mat-chip *ngFor="let skill of this.luisejrobles.skills" color="accent" selected="true">{{ skill }}</mat-chip>
   </mat-chip-list>
 </mat-card>
