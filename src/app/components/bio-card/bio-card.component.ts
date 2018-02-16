@@ -10,7 +10,7 @@ import { PersonalInfo } from '../../models/personal-info/personal-info';
 export class BioCardComponent implements OnInit {
   luisejrobles: PersonalInfo;
   
-  constructor( private personalInfoService: PersonalInfoService ) { }
+  constructor( public personalInfoService: PersonalInfoService ) { }
 
   ngOnInit() {
     this.luisejrobles = this.personalInfoService.personalInfo; 
