@@ -104,7 +104,7 @@ export class PersonalInfoService {
       }
     ],
     skills: [
-      "Respectful", "Organized", "Communicative", "Commited", "Responsible", "Friendly", "Stress proof", "Leader"
+      "Respectful", "Organized", "Communicative", "Commited", "Responsible", "Friendly", "Leader"
     ],
     socialMedia: {
       email: "mailto:luisejimenezrobles@gmail.com",
