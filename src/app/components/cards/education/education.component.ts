@@ -15,7 +15,6 @@ export class EducationComponent implements OnInit {
 
   ngOnInit() {
     this.luisejrobles = this.personalInfoService.personalInfo;
-    console.log(this.luisejrobles);
   }
 
 }
