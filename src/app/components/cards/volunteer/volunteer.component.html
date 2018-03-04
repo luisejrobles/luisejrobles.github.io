@@ -5,7 +5,11 @@
   </div>
   
   <div *ngFor="let event of this.luisejrobles.volunteer" class="volunteer-programs">
-    <h3>{{ event.name }}</h3>
+    <h3>
+      <b>
+          {{ event.name }}
+      </b> 
+    </h3>
     <h4 class="mat-caption event-role">{{ event.role }}</h4>
 
     <p class="mat-caption event-description">

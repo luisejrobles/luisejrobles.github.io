@@ -3,21 +3,20 @@
     <mat-icon>school</mat-icon>
     <h1 class="mat-headline">Education</h1>
   </div>
-  <mat-horizontal-stepper>
-    <mat-step *ngFor="let school of this.luisejrobles.schools.reverse()" >
       <div class="step-info">
         <div class="school-name">
-          <h2 class="mat-display-2">{{ school.name }}</h2>
+          <br>
+          <br>
+          <h2 class="mat-display-2">{{ this.school.name }}</h2>
         </div>
-        <mat-list dense>
-          
+        <mat-list>
           <h2 mat-subheader>Grade</h2>
           <mat-list-item>
             {{ school.grade }}
           </mat-list-item>
           
           <h2 mat-subheader>Achievements</h2>
-          <mat-list-item *ngFor="let achievement of school.achievements">
+          <mat-list-item *ngFor="let achievement of this.school.achievements">
             <h4 mat-line> 
               {{ achievement }}
             </h4>
@@ -37,6 +36,4 @@
 
         </mat-list>
       </div>
-    </mat-step>
-  </mat-horizontal-stepper>
 </mat-card>
