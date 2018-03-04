@@ -1,0 +1,55 @@
+h4 {
+    margin-bottom: 5px;
+    clear: both;
+}
+h4 b {
+    color: #3F51B5;
+}
+mat-card {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 85%;
+}
+mat-chip {
+    margin-bottom: 5px;
+}
+.blank {
+    background-color: white;
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+.event-description {
+    color: #636e72;
+    margin-bottom: px;
+}
+.event-date {
+    /* background-color: aqua; */
+    color: #636e72;
+    float: right;
+    margin-bottom: 30px;
+    text-align: right;
+    width: 40%;
+}
+.card-title {
+    /* background-color: aquamarine; */
+    margin-bottom: 50px;
+    width: 100%;
+}
+.card-title mat-icon {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.card-title h1 {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+}
+.jobs {
+    clear: both;
+    text-align: justify;
+}

@@ -1,0 +1,19 @@
+<mat-card class="mat-typography">
+  <div class="card-title">
+    <mat-icon>account_box</mat-icon>
+    <h1>General Bio</h1>
+  </div>
+  <div class="general-bio-container">
+    <p>
+      Born and raised in Tijuana, Mexico. passionate about geek - tech - arts - cultural things but also in making things done.<br>
+      Most of my time in university I was involved with non profit organizations and volunteer programs creating solutions for my city and school
+      participating and creating events, workshops, meetups and  I'm really interested in closing the gap between technology, school and community in Mexico, 
+      I think there's still a lot to do and I'm trying my best to solve it.<br>
+      Constantly in hackathons as coach, mentor or participating meeting new interesting and talented persons.<br>
+      Right now I'm focusing in a Machine Learning career.
+    </p>      
+  </div>
+  <mat-chip-list>
+    <mat-chip *ngFor="let skill of this.luisejrobles.skills" color="accent" selected="true">{{ skill }}</mat-chip>
+  </mat-chip-list>
+</mat-card>

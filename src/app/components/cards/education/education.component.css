@@ -1,0 +1,49 @@
+mat-card {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 85%;
+}
+mat-list {
+    text-align: left;
+}
+mat-list h2 {
+    display: inline-block;
+    color: #3F51B5;
+}
+
+.achievement-div {
+    background-color: green;
+    display: block;
+}
+.card-title {
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.card-title mat-icon {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.card-title h1 {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+}
+.location-div {
+    float: right;
+}
+.step-info {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+.school-name {
+    /* color: #3F51B5; */
+    display: block;
+    text-align: left;
+    margin-bottom: 2px;
+}

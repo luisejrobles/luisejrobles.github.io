@@ -1,0 +1,25 @@
+<mat-card class="mat-typography">
+  
+  <div class="card-title">
+    <mat-icon>hearing</mat-icon>
+    <h1>Talks and Workshops</h1>
+  </div>
+  <div *ngFor="let talk of this.luisejrobles.talks" class="talks-container">
+      <h4> 
+        <b>{{ talk.name }}</b> 
+      </h4>
+      <p class="talk-date">
+        <span>
+          <b>Date:</b>
+        </span>
+        <span class="mat-caption">
+          {{ talk.date }}
+        </span>
+      </p>
+      <div class="talk-location">
+        <mat-icon>location_on</mat-icon>
+        <span class="mat-caption">{{ talk.location }}</span>
+      </div>
+    </div>
+  
+</mat-card>

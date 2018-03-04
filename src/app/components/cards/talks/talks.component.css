@@ -1,0 +1,50 @@
+h4 {
+    margin-bottom: 5px;
+    color: #3F51B5;
+}
+mat-card {
+    /* background-color: grey; */
+    display: block;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 85%;
+}
+.card-title mat-icon {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.card-title h1 {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+}                                        
+.talk-description {
+    color: #636e72;
+    margin-bottom: 3px;
+}
+.talk-date {
+    color: #636e72;
+    margin-bottom: 3px;
+    text-align: right;
+    width: 100%;
+}
+.talk-location {
+    color: #636e72;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.talk-location mat-icon {
+    font-size: 15px;
+    color: #636e72;
+}
+.card-title {
+    /* background-color: aquamarine; */
+    margin-bottom: 50px;
+    width: 100%;
+}
+.talks-container {
+    text-align: justify;
+}

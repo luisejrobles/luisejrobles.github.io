@@ -1,0 +1,27 @@
+<mat-card class="mat-typography">
+    <div class="card-title">
+      <mat-icon>work</mat-icon>
+      <h1>Jobs</h1>
+    </div>
+    <div *ngFor="let job of this.luisejrobles.jobs" class="jobs">
+      <h4> 
+        <b>{{ job.companyName }}</b> - {{ job.career}}
+      </h4>
+      <p class="mat-caption event-description">
+        {{ job.jobDescription }}
+      </p>
+      <p class="event-date">
+        <span>
+          <b>Period:</b>
+        </span>
+        <span class="mat-caption">
+          {{ job.period }}
+        </span>
+      </p>
+    </div>
+    <div class="blank"></div>
+    <mat-chip-list>
+        <mat-chip *ngFor="let language of this.luisejrobles.programmingSkills" color="accent" selected="true">{{ language }}</mat-chip>
+    </mat-chip-list>
+    
+  </mat-card>

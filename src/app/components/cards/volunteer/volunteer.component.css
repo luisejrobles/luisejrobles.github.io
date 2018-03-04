@@ -1,0 +1,46 @@
+h4 {
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+h3 {
+    color: #3F51B5;
+}
+mat-card {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 85%;
+}
+.event-description {
+    color: #636e72;
+    margin-bottom: px;
+}
+.event-date {
+    color: #636e72;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 100%;
+}
+.event-role {
+    margin-top: 1px;
+}
+.card-title {
+    /* background-color: aquamarine; */
+    margin-bottom: 50px;
+    width: 100%;
+}
+.card-title mat-icon {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.card-title h1 {
+    color: #b2bec3;
+    display: inline-block;
+    float: left;
+}
+.volunteer-programs {
+    text-align: justify;
+}
