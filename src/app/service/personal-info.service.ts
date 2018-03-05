@@ -97,8 +97,8 @@ export class PersonalInfoService {
         location: "Tijuana, BC",
         period: "2012-2017",
         achievements: [
-          "Github Campus Expert at Universidad Autónoma de Baja California.",
-          "Creator of Cimadev, a fully student driven tech community.",
+          "Github Campus Expert.",
+          "Creator of Cimadev.",
           "Curator of Cimadev."
         ],
       }
