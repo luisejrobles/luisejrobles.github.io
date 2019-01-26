@@ -6,6 +6,9 @@ import { BlogComponent } from './blog.component';
   declarations: [BlogComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    BlogComponent
   ]
 })
 export class BlogModule { }
