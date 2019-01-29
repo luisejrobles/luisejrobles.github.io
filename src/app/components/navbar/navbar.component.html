@@ -1,3 +1,4 @@
-<p>
-  navbar works!
-</p>
+<div class="navbar-height bg-secondary d-flex j-content-end">
+  <a class="text-mexican-pink font-size-xxxl font-fauna m-r-xl cursor-pointer" *ngFor="let route of routes">{{ route.name | titlecase }}</a>
+  <!-- <button class="btn btn-font-size-lg" [routerLink]="[ '/blog']">name><b>Blog</b></button> -->
+</div>

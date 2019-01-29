@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "setcion",
+      "prefix": "app",
       "schematics": {},
       "architect": {
         "build": {

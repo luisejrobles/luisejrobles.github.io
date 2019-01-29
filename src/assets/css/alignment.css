@@ -7,6 +7,9 @@
 .j-content-center {
     justify-content: center;
 }
+.j-content-end {
+    justify-content: flex-end;
+}
 .a-content-center {
     align-content: center;
 }
@@ -19,8 +22,13 @@
 .m-auto {
     margin: auto;
 }
+.m-l-auto {
+    margin-left: auto;
+}
 
+/* *************** */
 /* Text align */
+/* *************** */
 .text-center {
     text-align: center;
 }

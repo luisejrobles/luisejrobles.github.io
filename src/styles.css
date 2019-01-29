@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'assets/css/colors';
 @import 'assets/css/alignment';
+@import 'assets/css/sizing.css';
+@import 'assets/css/margins.css';
 @import url('https://fonts.googleapis.com/css?family=Fauna+One|Fredoka+One');
 
 h1 {
@@ -14,7 +16,15 @@ h1 {
 .font-fredoka {
     font-family: 'Fredoka One', cursive;
 }
-.without-margin {
-    margin-left: 0;
-    margin-top: auto;   
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

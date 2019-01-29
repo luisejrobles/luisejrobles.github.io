@@ -4,7 +4,9 @@ import { HomeComponent } from './home.component';
 import { JumbotronComponent } from './sections/jumbotron/jumbotron.component';
 
 @NgModule({
-  declarations: [HomeComponent, JumbotronComponent],
+  declarations: [
+    HomeComponent,
+    JumbotronComponent],
   imports: [
     CommonModule
   ],
