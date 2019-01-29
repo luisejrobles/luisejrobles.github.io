@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/css/colors';
+@import 'assets/css/alignment';
+@import url('https://fonts.googleapis.com/css?family=Fauna+One|Fredoka+One');
+
+h1 {
+    font-family: 'Fauna One', serif;
+}
+
+.font-fauna {
+    font-family: 'Fauna One', serif;
+}
+
+.font-fredoka {
+    font-family: 'Fredoka One', cursive;
+}
+.without-margin {
+    margin-left: 0;
+    margin-top: auto;   
+}
