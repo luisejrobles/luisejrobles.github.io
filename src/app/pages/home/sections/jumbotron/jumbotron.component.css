@@ -13,6 +13,9 @@
 .welcome-div {
     height: auto;
     width: 70vw;
+    flex-grow: 1;
+    /* background-color: aqua */
+    
 }
 
 .full-width {
