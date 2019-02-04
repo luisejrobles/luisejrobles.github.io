@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { NavbarModule } from './components/navbar/navbar.module';
-import { TextCardComponent } from './components/text-card/text-card.component';
 
 @NgModule({
   declarations: [
