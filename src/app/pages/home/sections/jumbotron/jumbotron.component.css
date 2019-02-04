@@ -1,32 +1,39 @@
-.blog-button {
-    align-self: flex-start;
-    border-radius: 5px;
-    background: none;
-    border: none;
-    font-size: 2vw;
+a:hover {
+    color: white;
 }
+
 .jumbotron {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
 .welcome-div {
     height: auto;
-    width: 70vw;
     flex-grow: 1;
-    /* background-color: aqua */
-    
 }
 
-.full-width {
-    width: 100%;
-}
 .hi {
-    font-size: 4vw; 
+    font-size: 4vw;
 }
+
 .handle {
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
-
-
+@media (max-width: 450px) {
+    .aka-mobile {
+        margin-bottom: -5vh;
+        margin-top: -3vh;
+    }
+    .handle {
+        margin-bottom: 50px;
+        font-size: 12vw;
+    }
+    .hi {
+        font-size: 12vw;
+        margin-top: -44px;
+    }
+    .jumbotron {
+        height: 90vh;
+    }
+}
