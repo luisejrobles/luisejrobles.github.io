@@ -4,20 +4,26 @@
 .d-center {
     align-self: center;
 }
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .j-content-center {
     justify-content: center;
 }
 .j-content-end {
     justify-content: flex-end;
 }
+.j-content-evenly {
+    justify-content: space-evenly;
+}
 .a-content-center {
     align-content: center;
-}
-.d-block {
-    display: block;
-}
-.d-inline-block {
-    display: inline-block;
 }
 .m-auto {
     margin: auto;

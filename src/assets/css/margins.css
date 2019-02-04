@@ -22,3 +22,28 @@
 .m-r-xl {
     margin-right: 40px;
 }
+.m-l-sm {
+    margin-left: 10px;
+}
+.m-l-md {
+    margin-left: 20px;
+}
+.m-l-lg {
+    margin-left: 30px;
+}
+.m-l-xl {
+    margin-left: 40px;
+}
+
+.p-sm {
+    padding: 15px;
+}
+.p-md {
+    padding: 25px;
+}
+.p-lg {
+    padding: 35px;
+}
+.p-xl {
+    padding: 45px;
+}

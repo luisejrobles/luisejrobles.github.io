@@ -4,6 +4,7 @@
 @import 'assets/css/sizing.css';
 @import 'assets/css/margins.css';
 @import url('https://fonts.googleapis.com/css?family=Fauna+One|Fredoka+One');
+@import '@fortawesome/fontawesome-free/css/all.css';
 
 h1 {
     font-family: 'Fauna One', serif;

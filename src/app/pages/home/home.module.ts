@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { JumbotronComponent } from './sections/jumbotron/jumbotron.component';
 import { AboutMeComponent } from './sections/about-me/about-me.component';
+import { TextCardModule } from 'src/app/components/text-card/text-card.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { AboutMeComponent } from './sections/about-me/about-me.component';
     JumbotronComponent,
     AboutMeComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    TextCardModule
   ],
   exports: [
     HomeComponent
