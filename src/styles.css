@@ -29,3 +29,12 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #f1c40f
+}
