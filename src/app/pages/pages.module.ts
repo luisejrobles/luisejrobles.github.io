@@ -8,7 +8,7 @@ import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
   imports: [
     HomeModule

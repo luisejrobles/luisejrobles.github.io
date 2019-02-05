@@ -22,6 +22,9 @@
 .j-content-evenly {
     justify-content: space-evenly;
 }
+.j-content-start {
+    justify-content: flex-start;
+}
 .a-content-center {
     align-content: center;
 }
