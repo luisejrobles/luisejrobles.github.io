@@ -11,11 +11,9 @@ import { HomeModule } from './home/home.module';
     PageNotFoundComponent
   ],
   imports: [
-    BlogModule,
     HomeModule
   ],
   exports: [
-    BlogComponent,
     HomeComponent,
     PageNotFoundComponent
   ]
