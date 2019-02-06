@@ -1,6 +1,9 @@
 .font-size-xxxl{
     font-size: -webkit-xxx-large;
 }
+.font-size-lg {
+    font-size: larger;
+}
 
 .f-grow-1 {
     flex-grow: 1;
@@ -10,4 +13,11 @@
 }
 .full-height {
     height: 100vh;
+}
+
+@media(max-width: 600px) {
+    .full-width-mobile {
+        flex: 1 !important;
+    }
+
 }

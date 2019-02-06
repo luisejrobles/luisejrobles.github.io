@@ -1,0 +1,25 @@
+  # Temario Angular
+- CLI
+- Paquetes npm 
+- Componentes
+- Interpolación
+- Property Binding
+- 2 Way data binding
+- Módulos
+  - Atomización de módulos
+- Rutas
+  - Protección de rutas
+  - Lazy Loading  
+- Interacción usuario
+  - Formularios (Inputs)
+- Directivas
+  - NgIf
+  - NgFor
+  - NgSwitch
+- Interacción de componentes
+  - Input
+  - Output
+  - Event Emitters
+  - Servicios
+- Arquitectura de aplicaciones
+- Empaquetamiento y deploy

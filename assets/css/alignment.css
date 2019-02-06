@@ -13,6 +13,9 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+.flex-direction-column {
+    flex-direction: column;
+}
 .j-content-center {
     justify-content: center;
 }
@@ -22,8 +25,17 @@
 .j-content-evenly {
     justify-content: space-evenly;
 }
+.j-content-start {
+    justify-content: flex-start;
+}
+.j-conttent-space-between {
+    justify-content: space-between;
+}
 .a-content-center {
     align-content: center;
+}
+.a-self-center {
+    align-self: center
 }
 .m-auto {
     margin: auto;
@@ -44,3 +56,4 @@
 .text-left {
     text-align: left;
 }
+
