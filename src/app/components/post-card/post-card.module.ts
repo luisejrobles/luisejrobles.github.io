@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
 import { PostCardComponent } from './post-card.component';
 import { RouterModule } from '@angular/router';
 

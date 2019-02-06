@@ -8,11 +8,7 @@ img {
     height: 40vh;
     min-width: 16vw;
 }
-.img-container {
-    height: 190px;
-    width: 23vw;    /* height: 300px; */
-    border-radius: 4px;
-}
+
 
 .b-r-t {
     border-top-left-radius: 4px;
