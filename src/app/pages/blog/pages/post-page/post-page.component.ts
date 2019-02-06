@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './post-page.component.html',
   styleUrls: ['./post-page.component.css']
 })
+
 export class PostPageComponent implements OnInit {
-
+  
   constructor() { }
-
+  
+  markdownsrc = 'assets/blog-posts/temario-angular.md';
   ngOnInit() {
+
   }
 
 }

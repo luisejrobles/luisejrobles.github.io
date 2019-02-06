@@ -1,13 +1,8 @@
-<section name="blog" class="bg-secondary full-height p-lg">
+<section name="blog" class="bg-secondary p-lg">
     <div class="">
         <h1 class="text-primary font-size-xxxl">📝 Posts</h1>
     </div>
-    <div class="d-flex flex-wrap j-content-evenly">
-        <app-post-card></app-post-card>
-        <app-post-card></app-post-card>
-        <app-post-card></app-post-card>
-        <app-post-card></app-post-card>
-        <app-post-card></app-post-card>
-        <app-post-card></app-post-card>
+    <div class="d-flex flex-wrap j-conttent-space-between bg-secondary">
+        <app-post-card *ngFor="let post of postsArray" [post]="post"></app-post-card>
     </div>
 </section>

@@ -6,8 +6,14 @@ import { BlogComponent } from './blog.component';
 import { PostPageComponent } from './pages/post-page/post-page.component';
 
 const blogRoutes: Routes = [
-    {path: '', component: BlogComponent },
-    { path: 'blog/post/:id', component: PostPageComponent }
+    {
+        path: '',
+        children: [
+            { path: '', component: BlogComponent },
+            { path: 'post/:id', component: PostPageComponent }
+
+        ]
+    },
 ];
 
 @NgModule({
