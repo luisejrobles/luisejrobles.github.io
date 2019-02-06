@@ -10,28 +10,10 @@ export class BlogComponent implements OnInit {
 
   postsArray: PostCard[] = [
     {
-      title: 'Hola CDMX!',
+      title: 'Temario angular!',
       description: 'esta es una prueba',
       date: '05/05/2019',
-      url: 'lksjklj'
-    },
-    {
-      title: 'Test test test',
-      description: 'esta es una prueba',
-      date: '05/05/2019',
-      url: 'lksjklj'
-    },
-    {
-      title: 'Test test test',
-      description: 'esta es una prueba',
-      date: '05/05/2019',
-      url: 'lksjklj'
-    },
-    {
-      title: 'Test test test',
-      description: 'esta es una prueba',
-      date: '05/05/2019',
-      url: 'lksjklj'
+      url: 'temario-angular.md'
     }
   ];
 
