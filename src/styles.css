@@ -77,3 +77,10 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #c5a00c;
 }
+
+@media (max-width: 1200px ) {
+    button {
+        height: 6vh;
+        width: -webkit-fill-available !important;
+    }
+}

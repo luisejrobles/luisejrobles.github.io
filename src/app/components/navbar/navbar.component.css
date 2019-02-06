@@ -7,3 +7,13 @@ a {
 a:hover{
     color: white;
 }
+
+@media(max-width: 600px) {
+    .j-content-end {
+        justify-content: space-evenly;
+    }
+
+    .m-r-xl {
+        margin-right: 0px;
+    }
+}
