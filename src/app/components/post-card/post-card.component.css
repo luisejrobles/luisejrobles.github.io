@@ -1,6 +1,20 @@
+img {
+    width: 100%;
+    height: inherit;
+    /* max-height: 100%; */
+}
 .card {
     background-color: white;
-    border-radius: 4px;
     height: 40vh;
-    width: 23vw;
+    min-width: 14vw;
+}
+.img-container {
+    height: 190px;
+    width: 23vw;    /* height: 300px; */
+    border-radius: 4px;
+}
+
+.b-r-t {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }

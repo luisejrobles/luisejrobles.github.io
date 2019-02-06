@@ -1,3 +1,14 @@
-<div class="card m-b-md m-r-md">
-  dslklkjdsfds
+<div class="card b-r-sm m-b-md m-r-md p-md d-flex flex-direction-column j-conttent-space-between">
+  <h1>{{ post.title }}</h1>
+  <div>
+    <p class="font-fauna">
+      <i class="fas fa-clock m-r-sm"></i> <strong>Fecha</strong> {{ post.date }}
+    </p>
+    <p class="font-fauna">
+      {{ post.description }}
+    </p>
+  </div>
+  <div class="d-flex j-content-end">
+    <button class="font-fauna font-size-lg text-primary cursor-pointer">Ver más</button>
+  </div>
 </div>
