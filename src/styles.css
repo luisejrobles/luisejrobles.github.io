@@ -1,86 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import 'assets/css/colors';
-@import 'assets/css/alignment';
-@import 'assets/css/sizing.css';
-@import 'assets/css/margins.css';
-@import url('https://fonts.googleapis.com/css?family=Fauna+One|Fredoka+One');
-@import '@fortawesome/fontawesome-free/css/all.css';
+@import "assets/css/colors";
+@import "assets/css/alignment";
+@import "assets/css/sizing.css";
+@import "assets/css/margins.css";
+@import url("https://fonts.googleapis.com/css?family=Fauna+One|Fredoka+One");
+@import "@fortawesome/fontawesome-free/css/all.css";
 h1 {
-    font-family: 'Fauna One', serif;
+  font-family: "Fauna One", serif;
 }
 
 body,
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 input,
 button,
 submit {
-    border-radius: 4px;
-    background-color: #e4007c;
-    border: none;
-    width: 6vw;
-    height: 4vh;
+  border-radius: 4px;
+  background-color: #e4007c;
+  border: none;
+  width: 6vw;
+  height: 4vh;
 }
 
 button:hover {
-    background-color: black;
-    color: white
+  background-color: black;
+  color: white;
 }
 
 a {
-    color: white;
-    text-decoration-line: none;
+  color: white;
+  text-decoration-line: none;
 }
 
 a:hover {
-    color: #f1c40f
+  color: #ea9085;
 }
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .font-fauna {
-    font-family: 'Fauna One', serif;
+  font-family: "Fauna One", serif;
 }
 
 .font-fredoka {
-    font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: black;
+  background: black;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #f1c40f;
-    border-radius: 3px;
+  background: #ea9085;
+  border-radius: 3px;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #c5a00c;
+  background: #d45d79;
 }
 
-@media (max-width: 1200px ) {
-    button {
-        height: 6vh;
-        width: -webkit-fill-available !important;
-    }
+@media (max-width: 1200px) {
+  button {
+    height: 6vh;
+    width: -webkit-fill-available !important;
+  }
 }

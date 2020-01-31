@@ -1,17 +1,27 @@
-.text-primary {
-    color: white;
+.text-primary,
+strong > a,
+strong,
+.text-mexican-pink {
+  color: #ea9085;
 }
 .bg-primary {
-    background-color: white;
+  background-color: black;
 }
-.text-secondary {
-    color: black;
-}
+
 .bg-secondary {
-    background-color: black;
+  background-color: black;
 }
 
-.text-mexican-pink {
-    color: #e4007c;
+.text-secondary,
+div > a {
+  color: white;
 }
 
+h2,
+h1 {
+  color: #d45d79;
+}
+
+p {
+  color: white;
+}
